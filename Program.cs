@@ -1,3 +1,9 @@
+using System;
+
+namespace Prepare
+{
+    class Program
+    {
         public static int EvenFibonnaci(int n)
         {
             int[] fibonnaci = new int[n];
@@ -17,3 +23,11 @@
 
             return evenSum; 
         }
+
+        static void Main(string[] args) 
+        {
+            EvenFibonnaci(10);
+        }
+    }
+}
+
